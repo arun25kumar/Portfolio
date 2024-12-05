@@ -1,0 +1,35 @@
+.hero-animation{
+    display: inline-block;
+}
+
+
+.hero-animation{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black; 
+    animation: typing 6s steps(13), cursor .5s step-end infinite ;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0; 
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  
+  @keyframes cursor {
+    from {
+      border-right-color: transparent;
+    }
+    to {
+      border-right-color: black;
+    }
+  }
+  

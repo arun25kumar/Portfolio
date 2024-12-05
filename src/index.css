@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+
+}
+
+
+
+ body{
+    overflow-x: hidden;
+} 
+
+
+.clock-wise {
+    animation: rotation 8s infinite linear;
+}
+
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
