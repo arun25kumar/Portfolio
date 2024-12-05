@@ -179,7 +179,7 @@ const Skills = () => {
           </div>
           
           </div>
-          <div className="bg-black mt-16  w-full h-[0.5px] " >
+          <div className=" lg:bg-black mt-16  w-full h-[0.5px] " >
        
 
        </div>
