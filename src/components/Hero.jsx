@@ -89,7 +89,7 @@ const Hero = () => {
           </div>
           <div data-aos="fade-up" data-aos-duration="2000">
             <p className="text-[rgb(132,143,147)] text-[16px]">LET'S CONNECT</p>
-            <h1 className="md:text-[36px] flex justify-end gap-5 pt-[20px]  text-[40px]">
+            <h1 className="md:text-[36px] flex lg:justify-end  justify-center gap-5 pt-[20px]  text-[40px]">
               {" "}
            <a href="http://www.linkedin.com/in/arun2504">  <CiLinkedin className="hover:animate-ping" data-aos="flip-left" data-aos-duration="3000" /></a>  
              <a href="https://github.com/arun25kumar"> <FaGithub className="hover:animate-ping"
@@ -103,7 +103,7 @@ const Hero = () => {
       </div>
       <img
   src={circle}
-  className="absolute top-36 opacity-30 w-80   right-[-130px] clock-wise"
+  className="absolute top-36 opacity-30 lg:w-80 w-0  right-[-130px] clock-wise"
   alt=""
 />
 <div className="">
@@ -111,7 +111,7 @@ const Hero = () => {
 
 </div>
      
-      <div className="bg-black lg:w-full mt-24 h-[0.5px] flex items-center    "></div>
+      <div className="lg:bg-black lg:w-full mt-24 h-[0.5px] flex items-center    "></div>
     </div>
   );
 };
