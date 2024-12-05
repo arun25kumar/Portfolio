@@ -117,7 +117,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="bg-black mt-2  w-full h-[0.5px]"></div>
+        {/* <div className="bg-black mt-2  w-full h-[0.5px]"></div> */}
       </div>
     </>
   );
