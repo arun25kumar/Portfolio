@@ -44,7 +44,7 @@ const Resizable = () => {
         <p className="text-[17px]  text-[#8a8f93]">Most Recent works</p>
       </div>
       <div data-aos="zoom-in-up" className="md:m-14">
-        <div className="lg:flex justify-between flex-col">
+        <div className="lg:flex justify-between  ">
           {/* project1 */}
 
           <div
@@ -141,7 +141,7 @@ const Resizable = () => {
           </div>
         </div>
 
-        <div className=" lg:flex justify-between flex-col">
+        <div className="lg:flex justify-between ">
           {/* project1 */}
 
           <div
@@ -240,7 +240,7 @@ const Resizable = () => {
                       
           </div>
         </div>
-        <div className="lg:flex justify-between flex-col">
+        <div className="lg:flex justify-between ">
           {/* project1 */}
 
           <div
